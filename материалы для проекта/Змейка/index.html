@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="sapper.css" type="text/css"  />
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="sapper.js" type="text/javascript"></script>
+    <link rel="icon" href="img/ty.png">
+    <title>Fun | Sad | Games | Змейка.</title>
+<style type="text/css">
+header{
+    background-color: #ADD8E6;
+}
+.en{
+    border: 10px ridge #4682B4;
+    background-image: url("img/re.png");
+    color: #4682B4;
+    text-shadow: 5px 2px 4px black;
+}
+.yt{
+background-color: #cbdfe5eb;
+}
+body {
+    background-image: url("img/katt.jpg");
+}
+.gh {
+
+    font-size :30px;
+    border: 10px ridge #4682B4;
+    font-family: Century Gothic;
+    background-color: #bad2ffcc;
+    color: #263e52;
+}
+.menu_ekaterini{
+    background-color: #d9e6ffcc;
+}
+.futbolniy_myachik{
+    background-color: #bad2ffcc;
+    font-family: Century Gothic;
+  
+}
+.nogi{
+    font-size :18px;
+    border: 10px ridge #4682B4;
+    font-family: Century Gothic;
+    background-color: #bad2ffcc;
+    color: #3a6283;
+}
+.zmeyka {
+    font-size: 50px;
+}
+details {
+    background-color: #cbdfe5eb;
+    border: groove;
+}
+
+
+</style>
+</head>
+<body>
+<p class="futbolniy_myachik">Индивидуальный проект "Мини-игры" от Fun | Sad | Games</p>
+<header> <div class="en"><img  src="img/re.png" alt="изображение не загрузилось" /><p class="yt" align="center" class=MsoNormal><span lang=EN-US style='font-size:100.0pt;line-height:115%;
+font-family:Chiller;mso-bidi-font-family:"Times New Roman";mso-ansi-language:
+EN-US'>Fun</span><span style='font-size:100.0pt;line-height:115%;font-family:
+Chiller;mso-bidi-font-family:"Times New Roman"'>|</span><span lang=EN-US
+style='font-size:100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US'>Sad</span><span style='font-size:
+100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:"Times New Roman"'>|</span><span
+lang=EN-US style='font-size:100.0pt;line-height:115%;font-family:Chiller;
+mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'>Games</span><span
+style='font-size:100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:
+"Times New Roman"'><o:p></o:p></span></p></div></header><br><br>
+
+
+
+<div class="gh" >
+
+     <details>
+   <summary><b>Правила игры </b></summary>
+   <small><small> <details>
+   <summary> <b>Уровень сложности Easy</b></summary>Игрок управляет змейкой, которая ползает по плоскости, собирая мух и пакетики с кормом, избегая столкновения с собственным хвостом. На простой сложности змейка может проходить через границы локации, появляясь с противоположной стороны. Каждый раз, когда змея съедает кусок пищи, она становится длиннее, что постепенно усложняет игру
+  </details>
+<details>
+   <summary> <b>Уровень сложности Hard</b></summary>Игрок управляет змейкой, которая ползает по плоскости, собирая мух и пакетики с кормом, избегая столкновения с собственным хвостом, цветами и красными границами поля. Если змейка столкнётся с цветком, счёт уменьшится в два раза (В случае с нечётным количеством очков вычитается на 0,5 меньше половины) Каждый раз, когда змея съедает кусок пищи, она становится длиннее, что постепенно усложняет игру</summary>
+  </details>
+  </details>
+</small></small></details>
+<details><summary><b>Задача игры</b></summary><small><small>Набрать как можно больше очков.</small></small></details>
+<details><summary><b>Совет</b></summary><small><small>Лучше играть клавишами WASD, а не стрелками, так как если играть стрелками, страница будут двигаться, что будет мешать игре.</small></small></details>
+
+  <div id="wrapper"><center><p class="zmeyka"><b>Змейка</b></p>
+        <div class="info"><p class="zmeya">
+                <p>Счёт: <span id="score">0</span></p>
+                <p>Рекорд: <span id="best-score">0</span></li>
+                <p>Сложность: <span id="difficulty">Easy</span> <button id="changeDif">Другая</button></p>
+        <canvas style="display: block;" id="canvas">Your browser is not supported canvas))</canvas></center>
+    </div><br><br></div></p><br>
+    <script src="./js/game.js"></script>
+<div class="nogi"><br><center>VK : <a href="https://vk.com/youka_sakami">Екатерина Семёнова</center></a><center>14.04.2023.<center><br></div>
+
+</center>
+</body>
+</html>

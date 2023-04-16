@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="sapper.js" type="text/javascript"></script>
+    <link rel="icon" href="img/ty.png">
+    <title>Fun | Sad | Games | Сапёр.</title>
+<style type="text/css">
+header{
+    background-color: #ADD8E6;
+}
+.en{
+    border: 10px ridge #4682B4;
+    background-image: url("img/re.png");
+    color: #4682B4;
+    text-shadow: 5px 2px 4px black;
+}
+.yt{
+background-color: #cbdfe5eb;
+}
+body {
+    background-image: url("img/katt.jpg");
+}
+.gh {
+    font-size :30px;
+    border: 10px ridge #4682B4;
+    font-family: Century Gothic;
+    background-color: #bad2ffcc;
+    color: #263e52;
+}
+.menu_ekaterini{
+    background-color: #d9e6ffcc;
+}
+.futbolniy_myachik{
+    background-color: #bad2ffcc;
+    font-family: Century Gothic;
+  
+}
+.nogi{
+    font-size :18px;
+    border: 10px ridge #4682B4;
+    font-family: Century Gothic;
+    background-color: #bad2ffcc;
+    color: #3a6283;
+}
+
+.saper{
+    font-size:50px ;
+}
+
+
+
+
+
+
+#sapper_table_main {
+    border: 1px solid white;
+    background:  linear-gradient(#ff606080,#83fffac7,#0020ff38);
+    font-family: Century Gothic;
+}
+div#sapper_time{
+    text-align: center;
+}
+#sapper_table_main td{
+    border-top:6px solid #e0ffff;
+    border-left:6px solid #c8ffff;
+    border-bottom:6px solid black;
+    border-right:6px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    background: #000422;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+#sapper_table_main td img{
+    display: block;
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+}
+#sapper_settings{
+    text-align: center;
+    font-family: Century Gothic;
+}
+#sapper_settings input[type=text]{
+    width: 22px;
+    text-align: center;
+}
+
+#sapper_wrapper{
+    position: relative;
+}
+
+div.sapper_message {
+    font-family: Century Gothic;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+div.sapper_message p{
+    display: block;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+details {
+    background-color: #cbdfe5eb;
+    border: groove;
+}
+
+
+</style>
+</head>
+<body>
+<p class="futbolniy_myachik">Индивидуальный проект "Мини-игры" от Fun | Sad | Games</p>
+<header> <div class="en"><img  src="img/re.png" alt="изображение не загрузилось" /><p class="yt" align="center" class=MsoNormal><span lang=EN-US style='font-size:100.0pt;line-height:115%;
+font-family:Chiller;mso-bidi-font-family:"Times New Roman";mso-ansi-language:
+EN-US'>Fun</span><span style='font-size:100.0pt;line-height:115%;font-family:
+Chiller;mso-bidi-font-family:"Times New Roman"'>|</span><span lang=EN-US
+style='font-size:100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:
+"Times New Roman";mso-ansi-language:EN-US'>Sad</span><span style='font-size:
+100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:"Times New Roman"'>|</span><span
+lang=EN-US style='font-size:100.0pt;line-height:115%;font-family:Chiller;
+mso-bidi-font-family:"Times New Roman";mso-ansi-language:EN-US'>Games</span><span
+style='font-size:100.0pt;line-height:115%;font-family:Chiller;mso-bidi-font-family:
+"Times New Roman"'><o:p></o:p></span></p></div></header><br><br>
+
+
+<div class="gh" >
+
+    <details>
+   <summary><b>Правила игры </b></summary>
+   <small><small> Плоское или объёмное игровое поле разделено на смежные ячейки, некоторые из которых «заминированы»; количество «заминированных» ячеек можно указать в поле ниже, также как и размер поля. 
+
+ Открыв ячейку с миной, игрок проигрывает. Если под открытой ячейкой мины нет, то в ней появляется число или пустая клетка, показывающие, сколько соседних ячеек содержит мины. Используя эти числа, игрок пытается рассчитать расположение мин, однако иногда даже в середине и в конце игры некоторые ячейки всё же приходится открывать наугад. Если под соседними ячейками тоже нет мин, то открывается некоторая «не заминированная» область до ячеек, в которых есть цифры. «Заминированные» ячейки игрок может пометить флажками (правой кнопкой мыши), чтобы случайно не открыть их. Открыв все «не заминированные» ячейки, игрок выигрывает.
+  </details>
+</small></small></details>
+<details><summary><b>Задача игры</b></summary><small><small>Открыть все ячейки, несодержащие мины.</small></small></details>
+<details><summary><b>Убедительная просьба!</b></summary><small><small>Не указывайте очень большие числа в графе размера поля, так как это может перегрузить компьтер.</small></small></details>
+
+  <center><div id="sapper_wrapper" style="display: inline-block">
+    <p class="saper"><b>Сапёр</b></p>
+    <div id="sapper_settings">
+        <p><b>Размер поля:
+        <input size="1" id="sapper_count_td" type="text" value="10"> x
+        <input size="1" id="sapper_count_tr" type="text" value="10"><br>
+        Количество заминированных ячеек
+        <input size="1" id="sapper_count_bombs" type="text" value="10">
+        <input id="sapper_new_game" type="button" value="Новая игра"></b></p>
+    </div>
+    <div id="sapper_time">
+        <span id="sapper_minutes">00</span>:<span id="sapper_seconds">00</span>
+    </div>
+    <table id="sapper_table_main">
+
+    </table><br><br><br>
+</div>
+</center></div><br>
+<div class="nogi"><br><center>VK : <a href="https://vk.com/youka_sakami">Екатерина Семёнова</center></a><center>14.04.2023.<center><br></div>
+
+</center>
+</body>
+</html>

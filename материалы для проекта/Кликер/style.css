@@ -1,0 +1,81 @@
+html {
+  background-color : #000220
+}
+h1 {
+  text-shadow: 2px 0px 4px aqua;
+  color : #33ffe8;
+  background-color : #000220
+}
+    
+}
+body {
+  background-image: url(https://vsevolodhtml.ru/assets/img/bg-intro-desktop.png);
+  background-attachment: fixed;
+}
+h2 {
+  font-family: 'Pangolin', cursive;
+}
+button {
+  background: linear-gradient(to top, rgba(0,18,175,.5) 0.0%, rgba(40,140,255,.3) 100.0%), url(https://madeas.ru/wp-content/uploads/2018/08/bg-art_26-300x300.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  border-radius:20px;
+  text-decoration: none;	
+  font-family: Titillium, Arial, sans-serif;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,1);
+  text-transform:uppercase;
+  font-size: .9em;
+  letter-spacing: .1em;
+  margin-right: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+input {
+  margin: 5px;
+  border-radius:20px;
+  cursor: pointer;
+  padding: 10px;
+}
+main {
+  background-color: #60c5d9;
+  margin: 0 auto;
+  width: 60%;
+}
+.img {
+  float: right;
+  width: 30%;
+  margin-top: -250px;
+  margin-right: 10px;
+}
+h1 img {
+  width: 30px;
+  margin-bottom: -5px;
+}
+h1, h2 {
+  text-align: center;
+}
+
+@media (max-width:1000px) {
+  main {
+    width: 90%;
+    height: 1500px;
+  }
+  .img {
+    width: 37%;
+    margin-top: 0;
+  }
+  h1, h2 {
+    font-size: 100px;
+    margin: 0;
+  }
+  button, input {
+    font-size: 50px;
+  }
+  h1 img {
+    width: 80px;
+  }
+}
